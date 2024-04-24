@@ -31,9 +31,3 @@ unsigned long long sumUpTo(int n) {
 }
 
 
-unsigned long long sumUpTo(int n) {
-    if (n == 0)
-        return 0;
-    else
-        return n + sumUpTo(n - 1);
-}
